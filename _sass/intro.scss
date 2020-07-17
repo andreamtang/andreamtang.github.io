@@ -1,0 +1,25 @@
+.intro{
+    padding: 220px 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    &__hello, &__summary {
+        font-size: 18px;
+        color: $brown;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.5em;
+        margin-top: 1em;
+        margin-bottom: 0em;
+    }
+
+    &__name {
+        font-size: 64px;
+        color: $beige;
+        font-family: 'Gotu', sans-serif;
+        margin-top: 0em;
+        margin-bottom: 0em;
+    }
+}
