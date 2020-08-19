@@ -1,0 +1,11 @@
+<header>
+    <img class="logo" src="assets/logo.svg" alt="logo">
+    <nav>
+        <ul class="nav__items">
+            {% for item in site.data.navbar %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+            <li><a href="assets/resume.pdf"><button>Resume</button></a></li>
+        </ul>
+    </nav>
+</header>
