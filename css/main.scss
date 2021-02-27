@@ -1,8 +1,9 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file. 
---- 
+# Front matter comment to ensure Jekyll properly reads file.
+---
 
-@import 'globals';
-@import 'base';
-@import 'intro';
-@import 'footer';
+@import "globals";
+@import "base";
+@import "intro";
+@import "footer";
+@import "navbar";
